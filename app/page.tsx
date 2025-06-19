@@ -108,44 +108,6 @@ export default function WeddingLanding() {
       {/* Hero Section */}
       <section className="relative w-full min-h-[100vh] flex items-center justify-center overflow-hidden">
         <Image src={heroImage} alt="Romantic couple silhouette" fill className="object-cover object-bottom brightness-75" priority />
-        {/* Sparkling Star - top right */}
-        <motion.div
-          initial={{ scale: 0.8, rotate: 0, opacity: 0.7 }}
-          animate={{
-            scale: [0.8, 1.2, 1],
-            rotate: [0, 15, -10, 0],
-            opacity: [0.7, 1, 0.7],
-          }}
-          transition={{
-            duration: 2.5,
-            repeat: Infinity,
-            repeatType: 'loop',
-            ease: 'easeInOut',
-          }}
-          style={{
-            position: 'absolute',
-            top: '6%',
-            right: '8%',
-            zIndex: 10,
-            pointerEvents: 'none',
-          }}
-        >
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#glow)">
-              <path d="M24 6 L27 21 L42 24 L27 27 L24 42 L21 27 L6 24 L21 21 Z" fill="#F2D46E"/>
-              <path d="M24 10 L26 21 L38 24 L26 27 L24 38 L22 27 L10 24 L22 21 Z" fill="#fff59d"/>
-            </g>
-            <defs>
-              <filter id="glow" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
-                <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
-                <feMerge>
-                  <feMergeNode in="coloredBlur"/>
-                  <feMergeNode in="SourceGraphic"/>
-                </feMerge>
-              </filter>
-            </defs>
-          </svg>
-        </motion.div>
         <div className="absolute inset-0 flex flex-col items-center top-30 md:top-20 text-center px-4">
           <h1 className="cursive text-8xl md:text-9xl drop-shadow-lg mb-2 text-gold">Verj & Ann</h1>
           <h2 className="font-serif text-3xl md:text-4xl text-gold mb-4">08.15.2025</h2>
@@ -288,11 +250,11 @@ export default function WeddingLanding() {
           </div>
           {/* Row 1, Col 2: Details Card */}
           <div className="bg-white md:rounded-r-2xl md:rounded-bl-none flex flex-col justify-center pt-8 md:p-12 shadow-lg h-full items-center text-center">
-            <h2 className="font-serif text-3xl text-dark-teal mb-8 italic" style={{ fontFamily: 'var(--font-serif)' }}>Details</h2>
+            <h2 className="font-serif text-4xl text-dark-teal mb-8 italic" style={{ fontFamily: 'var(--font-serif)' }}>Details</h2>
             {/* Ceremony */}
             <div className="mb-8">
-              <h3 className="uppercase text-gold text-xs tracking-widest mb-2">Ceremony</h3>
-              <div className="font-serif text-lg font-bold text-dark-teal leading-tight mb-1">God&apos;s Grace Believers<br/>Bible Baptist Church</div>
+              <h3 className="uppercase text-gold text-lg tracking-widest mb-2">Ceremony</h3>
+              <div className="font-serif text-xl font-bold text-dark-teal leading-tight mb-1">God&apos;s Grace Believers<br/>Bible Baptist Church</div>
               <div className="italic text-sm text-dark-teal text-opacity-70 mb-4">Bypass Rd, Brgy. Guyong<br/>Santa Maria, Bulacan</div>
               <div className="flex justify-center">
                 <a href="https://maps.app.goo.gl/SqzGvwDnXonZyU1H6" className="bg-[var(--color-gold)] text-white px-6 py-2 rounded font-serif text-base shadow hover:bg-[var(--color-dark-teal)] transition-colors">VIEW MAP</a>
@@ -300,8 +262,8 @@ export default function WeddingLanding() {
             </div>
             {/* Reception */}
             <div>
-              <h3 className="uppercase text-gold text-xs tracking-widest mb-2">Reception</h3>
-              <div className="font-serif text-lg font-bold text-dark-teal leading-tight mb-1">Uncle&apos;s Events Place</div>
+              <h3 className="uppercase text-gold text-lg tracking-widest mb-2">Reception</h3>
+              <div className="font-serif text-xl font-bold text-dark-teal leading-tight mb-1">Uncle&apos;s Events Place</div>
               <div className="italic text-sm text-dark-teal text-opacity-70 mb-4">E Celestino St, Santa Maria, Bulacan</div>
               <div className="flex justify-center">
                 <a href="https://maps.app.goo.gl/xVN4dzniUteyYkyc7" className="bg-[var(--color-gold)] text-white px-6 py-2 rounded font-serif text-base shadow hover:bg-[var(--color-dark-teal)] transition-colors">VIEW MAP</a>
@@ -310,18 +272,18 @@ export default function WeddingLanding() {
           </div>
           {/* Row 2, Col 1: Timeline */}
           <div className="bg-white md:rounded-bl-2xl md:rounded-br-none flex flex-col justify-center p-8 md:p-12 shadow-lg h-full border-t md:border-t-0 md:border-r border-gray-100 items-center text-center">
-            <h2 className="font-serif text-3xl text-dark-teal mb-8 italic" style={{ fontFamily: 'var(--font-serif)' }}>Timeline</h2>
+            <h2 className="font-serif text-4xl text-dark-teal mb-8 italic" style={{ fontFamily: 'var(--font-serif)' }}>Timeline</h2>
             <div className="flex flex-col gap-8">
               <div>
-                <div className="text-lg font-serif text-dark-teal mb-1">2:30 PM</div>
+                <div className="text-xl font-serif text-dark-teal mb-1">2:30 PM</div>
                 <div className="uppercase text-gray-500 tracking-widest">Ceremony</div>
               </div>
               <div>
-                <div className="text-lg font-serif text-dark-teal mb-1">3:30 PM</div>
+                <div className="text-xl font-serif text-dark-teal mb-1">3:30 PM</div>
                 <div className="uppercase text-gray-500 tracking-widest">Cocktail</div>
               </div>
               <div>
-                <div className="text-lg font-serif text-dark-teal mb-1">4:00 PM</div>
+                <div className="text-xl font-serif text-dark-teal mb-1">5:00 PM</div>
                 <div className="uppercase text-gray-500 tracking-widest">Dinner</div>
               </div>
             </div>
@@ -378,23 +340,34 @@ export default function WeddingLanding() {
           <h3 className="font-serif text-lg tracking-widest mb-8 text-center">TAGULAO- PALERO NUPTIALS</h3>
           <div className="w-full">
             {/* Parents */}
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mb-6">
+            <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mb-6">
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Parents of the Groom</div>
-                <div className="font-serif text-base mb-6">Ptr. Ireneo Tagulao<br/>Mrs. Zenaida Tagulao</div>
+                <div className="font-serif text-base text-sm md:text-lg">Ptr. Ireneo Tagulao<br/>Mrs. Zenaida Tagulao</div>
               </div>
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Parents of the Bride</div>
-                <div className="font-serif text-base mb-6">Mr. Rodrigo Palero<br/>Mrs. Felisicima Palero</div>
+                <div className="font-serif text-base text-sm md:text-lg">Mr. Rodrigo Palero<br/>Mrs. Felisicima Palero</div>
+              </div>
+            </div>
+            {/* Officiating Pastor */}
+            <div>
+              <div className="col-span-2 w-full">
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider w-full text-center">Officiating Pastor</div>
+              </div>
+              <div>
+                <div className="font-serif text-center text-sm md:text-lg">
+                  Ptr. Ver Julius Tagulao
+                </div>
               </div>
             </div>
             {/* Principal Sponsors */}
-            <div className="col-span-2 w-full">
+            <div className="col-span-2 w-full mt-6">
               <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider w-full text-center">Principal Sponsors</div>
             </div>
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6">
+            <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mt-6">
               <div>
-                <div className="font-serif text-base mb-6">
+                <div className="font-serif text-center text-sm md:text-lg">
                 Ptr. Conrado Herrera<br/>
                 Ptr. Richard John Raon<br/>
                 Ptr. Alan Navea<br/>
@@ -409,10 +382,10 @@ export default function WeddingLanding() {
                 </div>
               </div>
               <div>
-                <div className="font-serif text-base mb-6">
-                Ma&apos;am Babylene Herrera<br/>
-                Ma&apos;am Catherine Faith Raon<br/>
-                Ma&apos;am Rhona Navea<br/>
+                <div className="font-serif text-center text-sm md:text-lg">
+                Mrs. Babylene Herrera<br/>
+                Mrs. Catherine Faith Raon<br/>
+                Mrs. Rhona Navea<br/>
                 Mrs. Jovelyn Girasol<br/>
                 Mrs. Venjie Cabio<br/>
                 Mrs. Josephine Guanzon<br/>
@@ -430,38 +403,32 @@ export default function WeddingLanding() {
             </div>
             {/* Best Man / Maid of Honor */}
             
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6">
+            <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mt-6">
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Best Man</div>
-                <div className="font-serif text-base mb-6">Nathaniel Louis Sandoc</div>
+                <div className="font-serif text-center text-sm md:text-lg">Mr. Nathaniel Louis Sandoc</div>
               </div>
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Maid of Honor</div>
-                <div className="font-serif text-base mb-6">Gerlie Durana</div>
+                <div className="font-serif text-center text-sm md:text-lg">Ms. Gerlie Durana</div>
               </  div>
             </div>
             {/* Groomsmen / Bridesmaids */}
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6 mb-6 ">
+            <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mt-6 mb-6 ">
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Groomsmen</div>
-                <div className="font-serif text-base mb-6">
-                Peter Michael Tagulao<br/>
-                Eljay Sambrano<br/>
-                Peter Milano Jr.<br/>
-                Renjay Rosal<br/>
-                Jhon Regie Tagulao<br/>
-                Ptr. Timothy John Fernandez
+                <div className="font-serif text-center text-sm md:text-lg">
+                Mr. Peter Milano<br/>
+                Mr. Eljay Sambrano<br/>
+                Mr. Peter Michael Tagulao<br/>
                 </div>
               </div>
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bridesmaids</div>
-                <div className="font-serif text-base mb-6">
-                Julianna Grace Tagulao<br/>
-                Zoe Micah Nicole Cabio<br/>
-                Abigail Malapitan<br/>
-                Alexandria Nicole Caalim<br/>
-                Leah Angeline Banadera<br/>
-                Chermae Theresa Aguila
+                <div className="font-serif text-center text-sm md:text-lg">
+                Ms. Abigail Malapitan<br/>
+                Ms. Zoe Micah Nicole Cabio<br/>
+                Ms. Julliana Grace Tagulao<br/>
                 </div>
               </div>
             </div>
@@ -469,38 +436,53 @@ export default function WeddingLanding() {
             <div className="col-span-2 w-full">
               <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider w-full text-center">Secondary Sponsors</div>
             </div>
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6">
+            <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mt-6">
               <div>
-                <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Candle</span><br/>Peter Michael Tagulao<br/>Eljay Sambrano</div>
-                <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Veil</span><br/>Peter Milano Jr.<br/>Renjay Rosal</div>
-                <div className="font-serif text-base mb-6"><span className="font-semibold uppercase text-lg text-[#9B8353]">Cord</span><br/>Jhon Regie Tagulao<br/>Ptr. Timothy John Fernandez</div>
+                <div className="font-serif text-base"><span className="font-semibold uppercase text-lg text-[#9B8353]">Candle</span><br/>
+                <span className=" text-sm md:text-lg"> Mr. Renjay Rosal<br/>Ms. Alexandria Nicole Caalim</span></div>
               </div>
               <div>
-                <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Candle</span><br/>Julianna Grace Tagulao<br/>Zoe Micah Nicole Cabio</div>
-                <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Veil</span><br/>Abigail Malapitan<br/>Alexandria Nicole Caalim</div>
-                <div className="font-serif text-base mb-6"><span className="font-semibold uppercase text-lg text-[#9B8353]">Cord</span><br/>Leah Angeline Banadera<br/>Chermae Theresa Aguila</div>
+                <div className="font-serif text-base"><span className="font-semibold uppercase text-lg text-[#9B8353]">Veil</span><br/>
+                <span className=" text-sm md:text-lg">Mr. Jhon Regie Tagulao<br/>Ms. Leah Angeline Banadera</span></div>
+              </div>
+            </div>
+            <div>
+              <div className="font-serif text-center mt-6"><span className="font-semibold uppercase text-lg text-[#9B8353]">Cord</span><br/>
+              <span className=" text-sm md:text-lg">Ptr. Timothy John Fernandez<br/>Ms. Chermae Theresa Aguila</span>
               </div>
             </div>
             {/* Bearers */}
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6">
+            <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 text-center mt-6">
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Ring Bearer</div>
-                <div className="font-serif text-base mb-6">Asher Lemrod Tamon</div>
-                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bible Bearer</div>
-                <div className="font-serif text-base mb-6">Azariah Lemuel Rod Tamon</div>
+                <div className="font-serif text-base text-sm md:text-lg">Asher Lemrod Tamon</div>
               </div>
               <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bible Bearer</div>
+                <div className="font-serif text-base text-sm md:text-lg">Azariah Lemuel Rod Tamon</div>
+              </div>  
+              <div className="hidden md-block">
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Coin Bearers</div>
-                <div className="font-serif text-base mb-6">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
-                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Flower Girl</div>
-                <div className="font-serif text-base mb-6">
-                  Amara Naomi Dizon<br/>
-                  Rosie Brielle Mayo<br/>
-                  Zeraphine Loira Sosa<br/>
-                  Harmony Lois Fernandez<br/>
-                  Maria Jean Athena Tiu
-                  </div>
+                <div className="font-serif text-base text-sm md:text-lg">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
               </div>
+            </div>
+            <div className="w-full text-center block md-hidden">
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Coin Bearers</div>
+                <div className="font-serif text-base text-sm md:text-lg">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
+            </div>
+            <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider text-center mt-6">Flower Girl</div>
+            <div className="w-full grid grid-cols-2 md:grid-cols-3 text-center">
+                <div className="font-serif text-center text-sm md:text-lg">
+                  Amara Naomi Dizon<br/>
+                  Rosie Brielle Mayo
+                </div>
+                <div className="font-serif text-center text-sm md:text-lg">
+                Harmony Lois Fernandez<br/>
+                  Zeraphine Loira Sosa
+                </div>
+                <div className="font-serif text-center text-sm md:text-lg">
+                  Maria Jean Athena Tiu
+                </div>
             </div>
           </div>
         </div>
@@ -514,7 +496,25 @@ export default function WeddingLanding() {
         transition={{ duration: 0.8, ease: 'easeOut', delay: 0.6 }}
         viewport={{ once: true }}
       >
-        <h2 className="cursive text-5xl text-dark-teal mb-4 text-center" style={{ fontFamily: 'var(--font-cursive)' }}>Guest Attire</h2>
+        <h2 className="cursive text-5xl text-dark-teal mb-4 text-center" style={{ fontFamily: 'var(--font-cursive)' }}>Dress Code</h2>
+        <h3 className="font-serif text-xl text-dark-teal font-semibold tracking-widest mb-2 text-center underline">FOR PRINCIPAL SPONSORS</h3>
+        <div className="text-center">
+          <p className="font-serif text-lg text-dark-teal font-semibold tracking-widest mb-2 text-center ">Formal</p>
+          <div className="font-serif text-sm md:text-lg text-dark-teal font-semibold tracking-widest mb-2 text-center">
+            <p>Gentlemen:</p>
+            <p>Barong (Nude or any Neutral Colors) with Black Pants</p>
+          </div>
+          <div className="font-serif text-sm md:text-lg    text-dark-teal font-semibold tracking-widest mb-2 text-center">
+            <p>Ladies:</p>
+            <p>Gown or Dress (Teal Blue or Yellow)</p>
+          </div>
+        </div>
+        <h3 className="font-serif text-xl text-dark-teal font-semibold tracking-widest mb-2 text-center mt-6 underline">FOR GUEST</h3>
+        <div className="font-serif text-lg text-dark-teal font-semibold tracking-widest mb-2 text-center">
+          <p>Semi-Formal</p>
+          <p>We&apos;d love to see you in these colors:</p>
+          <p>As a sign of respect, we kindly ask guests not to wear white. <br/> This color is reserved for the bride.</p>
+        </div>
         <div className="mb-6 flex justify-center">
           <Image src="/images/Attire.png" alt="Guest Attire Illustration" width={220} height={180} />
         </div>
@@ -600,44 +600,6 @@ export default function WeddingLanding() {
 
       {/* Final Fullscreen Image */}
       <section className="relative w-full min-h-[100vh] flex flex-col items-center justify-end overflow-visible mt-8 p-0">
-        {/* Sparkling Star - top right */}
-        <motion.div
-          initial={{ scale: 0.8, rotate: 0, opacity: 0.7 }}
-          animate={{
-            scale: [0.8, 1.2, 1],
-            rotate: [0, 15, -10, 0],
-            opacity: [0.7, 1, 0.7],
-          }}
-          transition={{
-            duration: 2.5,
-            repeat: Infinity,
-            repeatType: 'loop',
-            ease: 'easeInOut',
-          }}
-          style={{
-            position: 'absolute',
-            top: '6%',
-            right: '8%',
-            zIndex: 10,
-            pointerEvents: 'none',
-          }}
-        >
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#glow-footer)">
-              <path d="M24 6 L27 21 L42 24 L27 27 L24 42 L21 27 L6 24 L21 21 Z" fill="#F2D46E"/>
-              <path d="M24 10 L26 21 L38 24 L26 27 L24 38 L22 27 L10 24 L22 21 Z" fill="#fff59d"/>
-            </g>
-            <defs>
-              <filter id="glow-footer" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
-                <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
-                <feMerge>
-                  <feMergeNode in="coloredBlur"/>
-                  <feMergeNode in="SourceGraphic"/>
-                </feMerge>
-              </filter>
-            </defs>
-          </svg>
-        </motion.div>
         <div className="relative w-full h-[100vh] md:h-[100vh] flex-1">
           <Image src="/images/JSH02307.jpg" alt="Final Fullscreen" fill className="object-cover object-bottom" priority />
         </div>

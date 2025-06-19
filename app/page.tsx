@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@radix-ui/react-accordion";
-import { Calendar, MapPin, Heart, Glasses, Shirt, Baby, Camera, Users, Clock, CheckCircle, ChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { motion } from "framer-motion";
 
 const heroImage = "/images/JSH02285.jpg";
@@ -162,18 +162,18 @@ export default function WeddingLanding() {
       >
         <h2 className="font-serif text-4xl md:text-5xl text-dark-teal mb-4 text-center">Our Love Story</h2>
         <h3 className="font-serif text-xl text-gold mb-6 text-center">— a little peek into how forever began —</h3>
-        <p className="font-serif text-lg text-center mb-6">Ten years ago, we had no idea what God was preparing in us, and for us. Every step, every delay, every moment of waiting—He was weaving our hearts together in His perfect time, far better than we could imagine. This isn't just our journey, it's His masterpiece.</p>
+        <p className="font-serif text-lg text-center mb-6">Ten years ago, we had no idea what God was preparing in us, and for us. Every step, every delay, every moment of waiting—He was weaving our hearts together in His perfect time, far better than we could imagine. This isn&apos;t just our journey, it&apos;s His masterpiece.</p>
         <div className="mb-8">
           <h4 className="font-serif text-2xl text-gold mb-2 text-center">The First Date</h4>
           <p className="font-serif text-base text-center mb-4">We kept planning, kept canceling—life and distance got in the way. But one random day, Greenhills became the place where we finally showed up for each other.</p>
         </div>
         <div className="mb-8">
           <h4 className="font-serif text-2xl text-gold mb-2 text-center">The Day I Said Yes</h4>
-          <p className="font-serif text-base text-center mb-4">Not over dinner, not under the stars in Baguio. But somewhere along the highway home — August 15,2022 He asked, in the most unexpected way. "Can we change our Facebook status?" And even though I waited for it. It still felt like a perfect surprise.</p>
+          <p className="font-serif text-base text-center mb-4">Not over dinner, not under the stars in Baguio. But somewhere along the highway home — August 15,2022 He asked, in the most unexpected way. &quot;Can we change our Facebook status?&quot; And even though I waited for it. It still felt like a perfect surprise.</p>
         </div>
         <div className="mb-12">
           <h4 className="font-serif text-2xl text-gold mb-2 text-center">The Proposal</h4>
-          <p className="font-serif text-base text-center mb-4">So here's the thing, Again in Baguio—Verj is the shy type who hates being the center of attention. We visited so many romantic places, but the moment he proposed wasn't in any of them. It happened in the car. He wasn't sure how to give me the ring, so on the way back he said, "Let's change your ring. Will you marry me?" Even when you expect it, the moment still takes your breath away. And of course, I said yes!</p>
+          <p className="font-serif text-base text-center mb-4">So here&apos;s the thing, Again in Baguio—Verj is the shy type who hates being the center of attention. We visited so many romantic places, but the moment he proposed wasn&apos;t in any of them. It happened in the car. He wasn&apos;t sure how to give me the ring, so on the way back he said, &quot;Let&apos;s change your ring. Will you marry me?&quot; Even when you expect it, the moment still takes your breath away. And of course, I said yes!</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
           {galleryImages.map((src, i) => (
@@ -292,7 +292,7 @@ export default function WeddingLanding() {
             {/* Ceremony */}
             <div className="mb-8">
               <h3 className="uppercase text-gold text-xs tracking-widest mb-2">Ceremony</h3>
-              <div className="font-serif text-lg font-bold text-dark-teal leading-tight mb-1">God's Grace Believers<br/>Bible Baptist Church</div>
+              <div className="font-serif text-lg font-bold text-dark-teal leading-tight mb-1">God&apos;s Grace Believers<br/>Bible Baptist Church</div>
               <div className="italic text-sm text-dark-teal text-opacity-70 mb-4">Bypass Rd, Brgy. Guyong<br/>Santa Maria, Bulacan</div>
               <div className="flex justify-center">
                 <a href="https://maps.app.goo.gl/SqzGvwDnXonZyU1H6" className="bg-[var(--color-gold)] text-white px-6 py-2 rounded font-serif text-base shadow hover:bg-[var(--color-dark-teal)] transition-colors">VIEW MAP</a>
@@ -301,7 +301,7 @@ export default function WeddingLanding() {
             {/* Reception */}
             <div>
               <h3 className="uppercase text-gold text-xs tracking-widest mb-2">Reception</h3>
-              <div className="font-serif text-lg font-bold text-dark-teal leading-tight mb-1">Uncle's Events Place</div>
+              <div className="font-serif text-lg font-bold text-dark-teal leading-tight mb-1">Uncle&apos;s Events Place</div>
               <div className="italic text-sm text-dark-teal text-opacity-70 mb-4">E Celestino St, Santa Maria, Bulacan</div>
               <div className="flex justify-center">
                 <a href="https://maps.app.goo.gl/xVN4dzniUteyYkyc7" className="bg-[var(--color-gold)] text-white px-6 py-2 rounded font-serif text-base shadow hover:bg-[var(--color-dark-teal)] transition-colors">VIEW MAP</a>
@@ -345,7 +345,7 @@ export default function WeddingLanding() {
           <h2 className="font-serif italic text-4xl text-dark-teal mb-6 text-center" style={{ fontFamily: 'var(--font-serif)' }}>RSVP</h2>
           <p className="text-center mb-8 text-lg font-serif text-[var(--color-foreground)]">
             Every invited guest holds a special place in our hearts,<br />
-            and we truly can't imagine celebrating this day<br />
+            and we truly can&apos;t imagine celebrating this day<br />
             without you. As we have limited seating, we kindly<br />
             ask that you RSVP by <span className="text-gold font-semibold">July 25, 2025</span>.
           </p>
@@ -567,7 +567,7 @@ export default function WeddingLanding() {
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="guest">
             <AccordionTrigger className="flex items-center justify-between w-full py-3 font-semibold text-lg border-b border-gray-200">GIFTS<ChevronDown className="w-5 h-5" /></AccordionTrigger>
-            <AccordionContent className="py-2 text-gray-700">As love is what the night is all about. Your presence is one we can't celebrate without. But should you still believe that a gift is worth giving. A small envelope for our future is a delightful blessing.
+            <AccordionContent className="py-2 text-gray-700">As love is what the night is all about. Your presence is one we can&apos;t celebrate without. But should you still believe that a gift is worth giving. A small envelope for our future is a delightful blessing.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="kids">
@@ -580,7 +580,7 @@ export default function WeddingLanding() {
           </AccordionItem>
           <AccordionItem value="photos">
             <AccordionTrigger className="flex items-center justify-between w-full py-3 font-semibold text-lg border-b border-gray-200">TAKE THE SHOT<ChevronDown className="w-5 h-5" /></AccordionTrigger>
-            <AccordionContent className="py-2 text-gray-700">Once we've exchanged our vows and said "I do," feel free to take as many photos as you'd like. Don't forget to use our official hashtag when sharing on social media: #ANNsweredPrayerofVERJ</AccordionContent>
+            <AccordionContent className="py-2 text-gray-700">Once we&apos;ve exchanged our vows and said &quot;I do,&quot; feel free to take as many photos as you&apos;d like. Don&apos;t forget to use our official hashtag when sharing on social media: #ANNsweredPrayerofVERJ</AccordionContent>
           </AccordionItem>
         </Accordion>
       </motion.section>

@@ -1,14 +1,27 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-dark-teal: #0D4C5F;
+  --color-cream: #FBF6EF;
+  --color-gold: #C8A96A;
+  --color-charcoal: #3E3E3E;
+  --color-white: #FFFFFF;
+  --color-accent-yellow: #F2D46E;
+  --color-background: var(--color-cream);
+  --color-foreground: var(--color-charcoal);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  --font-cursive: var(--font-greatvibes);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-background: var(--color-cream);
+  --color-foreground: var(--color-charcoal);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -20,7 +33,36 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif), serif;
+  color: var(--color-dark-teal);
+}
+
+h1.cursive, h2.cursive, h3.cursive {
+  font-family: var(--font-cursive), cursive;
+  color: var(--color-gold);
+}
+
+.card {
+  background: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(13, 76, 95, 0.06);
+  padding: 2rem;
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.text-dark-teal {
+  color: var(--color-dark-teal);
+}
+
+.text-accent-yellow {
+  color: var(--color-accent-yellow);
 }

@@ -413,18 +413,18 @@ export default function WeddingLanding() {
                 Ma&apos;am Babylene Herrera<br/>
                 Ma&apos;am Catherine Faith Raon<br/>
                 Ma&apos;am Rhona Navea<br/>
-                Jovelyn Girasol<br/>
-                Venjie Cabio<br/>
-                Josephine Guanzon<br/>
-                Janice Villegas<br/>
-                Regina Caalim<br/>
-                Myrna Reyes<br/>
-                Judith Asuncion<br/>
-                Fely Sambrano<br/>
-                Liza Badillo<br/>
-                Bernadette Umayam<br/>
-                Irenea Tirao<br/>
-                Florena Tagulao
+                Mrs. Jovelyn Girasol<br/>
+                Mrs. Venjie Cabio<br/>
+                Mrs. Josephine Guanzon<br/>
+                Mrs. Janice Villegas<br/>
+                Mrs. Regina Caalim<br/>
+                Mrs. Myrna Reyes<br/>
+                Mrs. Judith Asuncion<br/>
+                Mrs. Fely Sambrano<br/>
+                Mrs. Liza Badillo<br/>
+                Mrs. Bernadette Umayam<br/>
+                Mrs. Irenea Tirao<br/>
+                Mrs. Florena Tagulao
                 </div>
               </div>
             </div>

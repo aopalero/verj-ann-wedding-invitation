@@ -461,12 +461,12 @@ export default function WeddingLanding() {
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bible Bearer</div>
                 <div className="font-serif text-base text-sm md:text-lg">Azariah Lemuel Rod Tamon</div>
               </div>  
-              <div className="hidden md-block">
+              <div className="hidden md:block">
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Coin Bearers</div>
                 <div className="font-serif text-base text-sm md:text-lg">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
               </div>
             </div>
-            <div className="w-full text-center block md-hidden">
+            <div className="w-full text-center block md:hidden">
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Coin Bearers</div>
                 <div className="font-serif text-base text-sm md:text-lg">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
             </div>

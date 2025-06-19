@@ -250,8 +250,8 @@ export default function WeddingLanding() {
                 <span className="z-10 font-bold text-4xl md:text-5xl text-dark-teal">15</span>
                 {/* Animated Heart SVG around 15 */}
                 <motion.svg
-                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-                  width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-18 md:w-24"
+                  viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg"
                   initial={{ scale: 1 }}
                   animate={{ scale: [1, 1.15, 1] }}
                   transition={{ repeat: Infinity, duration: 1.6, ease: 'easeInOut' }}
@@ -283,11 +283,11 @@ export default function WeddingLanding() {
         <h3 className="text-xl mb-8 text-center">— Everything you need to know for our special day —</h3>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-0 bg-transparent">
           {/* Row 1, Col 1: Couple Photo */}
-          <div className="relative h-[260px] md:h-full w-full md:rounded-l-2xl rounded-t-2xl md:rounded-tr-none shadow-lg overflow-hidden">
-            <Image src={coupleImage} alt="Couple" fill className="object-cover object-left" />
+          <div className="relative h-[260px] md:h-full w-full md:rounded-l-2xl rounded-t-2xl md:rounded-tr-none shadow-lg ">
+            <Image src={coupleImage} alt="Couple" fill className="object-cover object-center md:object-left" />
           </div>
           {/* Row 1, Col 2: Details Card */}
-          <div className="bg-white rounded-b-2xl md:rounded-r-2xl md:rounded-bl-none flex flex-col justify-center p-8 md:p-12 shadow-lg h-full items-center text-center">
+          <div className="bg-white md:rounded-r-2xl md:rounded-bl-none flex flex-col justify-center pt-8 md:p-12 shadow-lg h-full items-center text-center">
             <h2 className="font-serif text-3xl text-dark-teal mb-8 italic" style={{ fontFamily: 'var(--font-serif)' }}>Details</h2>
             {/* Ceremony */}
             <div className="mb-8">
@@ -309,7 +309,7 @@ export default function WeddingLanding() {
             </div>
           </div>
           {/* Row 2, Col 1: Timeline */}
-          <div className="bg-white rounded-bl-2xl md:rounded-bl-2xl md:rounded-br-none flex flex-col justify-center p-8 md:p-12 shadow-lg h-full border-t md:border-t-0 md:border-r border-gray-100 items-center text-center">
+          <div className="bg-white md:rounded-bl-2xl md:rounded-br-none flex flex-col justify-center p-8 md:p-12 shadow-lg h-full border-t md:border-t-0 md:border-r border-gray-100 items-center text-center">
             <h2 className="font-serif text-3xl text-dark-teal mb-8 italic" style={{ fontFamily: 'var(--font-serif)' }}>Timeline</h2>
             <div className="flex flex-col gap-8">
               <div>
@@ -376,118 +376,131 @@ export default function WeddingLanding() {
             The entourage
           </h2>
           <h3 className="font-serif text-lg tracking-widest mb-8 text-center">TAGULAO- PALERO NUPTIALS</h3>
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+          <div className="w-full">
             {/* Parents */}
-            <div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Parents of the Groom</div>
-              <div className="font-serif text-base mb-6">Ptr. Ireneo Tagulao<br/>Mrs. Zenaida Tagulao</div>
-            </div>
-            <div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Parents of the Bride</div>
-              <div className="font-serif text-base mb-6">Mr. Rodrigo Palero<br/>Mrs. Felisicima Palero</div>
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mb-6">
+              <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Parents of the Groom</div>
+                <div className="font-serif text-base mb-6">Ptr. Ireneo Tagulao<br/>Mrs. Zenaida Tagulao</div>
+              </div>
+              <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Parents of the Bride</div>
+                <div className="font-serif text-base mb-6">Mr. Rodrigo Palero<br/>Mrs. Felisicima Palero</div>
+              </div>
             </div>
             {/* Principal Sponsors */}
             <div className="col-span-2 w-full">
               <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider w-full text-center">Principal Sponsors</div>
             </div>
-            <div>
-              <div className="font-serif text-base mb-6">
-              Ptr. Conrado Herrera<br/>
-              Ptr. Richard John Raon<br/>
-              Ptr. Alan Navea<br/>
-              Mr. Noel Girasol<br/>
-              Mr. Mark Anthony Cabio<br/>
-              Mr. Elmer Guanzon<br/>
-              Mr. Kinn Villegas<br/>
-              Mr. Lemuel Montes<br/>
-              Ptr. Reynaldo Remogat Jr.<br/>
-              Mr. June Asuncion<br/>
-              Mr. Rodrigo Sambrano
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6">
+              <div>
+                <div className="font-serif text-base mb-6">
+                Ptr. Conrado Herrera<br/>
+                Ptr. Richard John Raon<br/>
+                Ptr. Alan Navea<br/>
+                Mr. Noel Girasol<br/>
+                Mr. Mark Anthony Cabio<br/>
+                Mr. Elmer Guanzon<br/>
+                Mr. Kinn Villegas<br/>
+                Mr. Lemuel Montes<br/>
+                Ptr. Reynaldo Remogat Jr.<br/>
+                Mr. June Asuncion<br/>
+                Mr. Rodrigo Sambrano
+                </div>
               </div>
-            </div>
-            <div>
-              <div className="font-serif text-base mb-6">
-              Mam Babylene Herrera<br/>
-              Mam Catherine Faith Raon<br/>
-              Mam Rhona Navea<br/>
-              Jovelyn Girasol<br/>
-              Venjie Cabio<br/>
-              Josephine Guanzon<br/>
-              Janice Villegas<br/>
-              Regina Caalim<br/>
-              Myrna Reyes<br/>
-              Judith Asuncion<br/>
-              Fely Sambrano<br/>
-              Liza Badillo<br/>
-              Bernadette Umayam<br/>
-              Irenea Tirao<br/>
-              Florena Tagulao
+              <div>
+                <div className="font-serif text-base mb-6">
+                Mam Babylene Herrera<br/>
+                Mam Catherine Faith Raon<br/>
+                Mam Rhona Navea<br/>
+                Jovelyn Girasol<br/>
+                Venjie Cabio<br/>
+                Josephine Guanzon<br/>
+                Janice Villegas<br/>
+                Regina Caalim<br/>
+                Myrna Reyes<br/>
+                Judith Asuncion<br/>
+                Fely Sambrano<br/>
+                Liza Badillo<br/>
+                Bernadette Umayam<br/>
+                Irenea Tirao<br/>
+                Florena Tagulao
+                </div>
               </div>
             </div>
             {/* Best Man / Maid of Honor */}
-            <div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Best Man</div>
-              <div className="font-serif text-base mb-6">Nathaniel Louis Sandoc</div>
-            </div>
-            <div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Maid of Honor</div>
-              <div className="font-serif text-base mb-6">Gerlie Durana</div>
+            
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6">
+              <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Best Man</div>
+                <div className="font-serif text-base mb-6">Nathaniel Louis Sandoc</div>
+              </div>
+              <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Maid of Honor</div>
+                <div className="font-serif text-base mb-6">Gerlie Durana</div>
+              </  div>
             </div>
             {/* Groomsmen / Bridesmaids */}
-            <div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Groomsmen</div>
-              <div className="font-serif text-base mb-6">
-              Peter Michael Tagulao<br/>
-              Eljay Sambrano<br/>
-              Peter Milano Jr.<br/>
-              Renjay Rosal<br/>
-              Jhon Regie Tagulao<br/>
-              Ptr. Timothy John Fernandez
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6 mb-6 ">
+              <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Groomsmen</div>
+                <div className="font-serif text-base mb-6">
+                Peter Michael Tagulao<br/>
+                Eljay Sambrano<br/>
+                Peter Milano Jr.<br/>
+                Renjay Rosal<br/>
+                Jhon Regie Tagulao<br/>
+                Ptr. Timothy John Fernandez
+                </div>
               </div>
-            </div>
-            <div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bridesmaids</div>
-              <div className="font-serif text-base mb-6">
-              Julianna Grace Tagulao<br/>
-              Zoe Micah Nicole Cabio<br/>
-              Abigail Malapitan<br/>
-              Alexandria Nicole Caalim<br/>
-              Leah Angeline Banadera<br/>
-              Chermae Theresa Aguila
+              <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bridesmaids</div>
+                <div className="font-serif text-base mb-6">
+                Julianna Grace Tagulao<br/>
+                Zoe Micah Nicole Cabio<br/>
+                Abigail Malapitan<br/>
+                Alexandria Nicole Caalim<br/>
+                Leah Angeline Banadera<br/>
+                Chermae Theresa Aguila
+                </div>
               </div>
             </div>
             {/* Secondary Sponsors */}
             <div className="col-span-2 w-full">
               <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider w-full text-center">Secondary Sponsors</div>
             </div>
-            <div>
-              <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Candle</span><br/>Peter Michael Tagulao<br/>Eljay Sambrano</div>
-              <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Veil</span><br/>Peter Milano Jr.<br/>Renjay Rosal</div>
-              <div className="font-serif text-base mb-6"><span className="font-semibold uppercase text-lg text-[#9B8353]">Cord</span><br/>Jhon Regie Tagulao<br/>Ptr. Timothy John Fernandez</div>
-            </div>
-            <div>
-              <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Candle</span><br/>Julianna Grace Tagulao<br/>Zoe Micah Nicole Cabio</div>
-              <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Veil</span><br/>Abigail Malapitan<br/>Alexandria Nicole Caalim</div>
-              <div className="font-serif text-base mb-6"><span className="font-semibold uppercase text-lg text-[#9B8353]">Cord</span><br/>Leah Angeline Banadera<br/>Chermae Theresa Aguila</div>
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6">
+              <div>
+                <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Candle</span><br/>Peter Michael Tagulao<br/>Eljay Sambrano</div>
+                <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Veil</span><br/>Peter Milano Jr.<br/>Renjay Rosal</div>
+                <div className="font-serif text-base mb-6"><span className="font-semibold uppercase text-lg text-[#9B8353]">Cord</span><br/>Jhon Regie Tagulao<br/>Ptr. Timothy John Fernandez</div>
+              </div>
+              <div>
+                <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Candle</span><br/>Julianna Grace Tagulao<br/>Zoe Micah Nicole Cabio</div>
+                <div className="font-serif text-base mb-2"><span className="font-semibold uppercase text-lg text-[#9B8353]">Veil</span><br/>Abigail Malapitan<br/>Alexandria Nicole Caalim</div>
+                <div className="font-serif text-base mb-6"><span className="font-semibold uppercase text-lg text-[#9B8353]">Cord</span><br/>Leah Angeline Banadera<br/>Chermae Theresa Aguila</div>
+              </div>
             </div>
             {/* Bearers */}
-            <div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Ring Bearer</div>
-              <div className="font-serif text-base mb-6">Asher Lemrod Tamon</div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bible Bearer</div>
-              <div className="font-serif text-base mb-6">Azariah Lemuel Rod Tamon</div>
-            </div>
-            <div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Coin Bearers</div>
-              <div className="font-serif text-base mb-6">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
-              <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Flower Girl</div>
-              <div className="font-serif text-base mb-6">
-                Amara Naomi Dizon<br/>
-                Rosie Brielle Mayo<br/>
-                Zeraphine Loira Sosa<br/>
-                Harmony Lois Fernandez<br/>
-                Maria Jean Athena Tiu
-                </div>
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-6">
+              <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Ring Bearer</div>
+                <div className="font-serif text-base mb-6">Asher Lemrod Tamon</div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bible Bearer</div>
+                <div className="font-serif text-base mb-6">Azariah Lemuel Rod Tamon</div>
+              </div>
+              <div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Coin Bearers</div>
+                <div className="font-serif text-base mb-6">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
+                <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Flower Girl</div>
+                <div className="font-serif text-base mb-6">
+                  Amara Naomi Dizon<br/>
+                  Rosie Brielle Mayo<br/>
+                  Zeraphine Loira Sosa<br/>
+                  Harmony Lois Fernandez<br/>
+                  Maria Jean Athena Tiu
+                  </div>
+              </div>
             </div>
           </div>
         </div>

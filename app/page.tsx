@@ -44,7 +44,7 @@ function Countdown() {
   return (
     <div className="w-full bg-[var(--color-dark-teal)] py-8 flex flex-col items-center gap-8 shadow-lg">
       <h2 className="text-3xl md:text-4xl font-serif italic mb-2 !text-white">Countdown to Forever</h2>
-      <div className="flex gap-4 md:gap-6 text-center items-end">
+      <div className="flex p-2 gap-4 md:gap-6 text-center items-end">
         <div>
           <div className="text-3xl md:text-6xl font-bold !text-white">{days}</div>
           <div className="text-xs md:text-sm font-semibold uppercase tracking-widest mt-1 !text-white">Days</div>

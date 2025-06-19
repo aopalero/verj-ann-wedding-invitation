@@ -46,22 +46,22 @@ function Countdown() {
       <h2 className="text-3xl md:text-4xl font-serif italic mb-2 !text-white">Countdown to Forever</h2>
       <div className="flex gap-4 md:gap-6 text-center items-end">
         <div>
-          <div className="text-5xl md:text-6xl font-bold !text-white">{days}</div>
+          <div className="text-4xl md:text-6xl font-bold !text-white">{days}</div>
           <div className="text-xs md:text-sm font-semibold uppercase tracking-widest mt-1 !text-white">Days</div>
         </div>
         <div className="text-4xl md:text-5xl font-bold !text-white">:</div>
         <div>
-          <div className="text-5xl md:text-6xl font-bold !text-white">{hours.toString().padStart(2, '0')}</div>
+          <div className="text-4xl md:text-6xl font-bold !text-white">{hours.toString().padStart(2, '0')}</div>
           <div className="text-xs md:text-sm font-semibold uppercase tracking-widest mt-1 !text-white">Hours</div>
         </div>
         <div className="text-4xl md:text-5xl font-bold !text-white">:</div>
         <div>
-          <div className="text-5xl md:text-6xl font-bold !text-white">{minutes.toString().padStart(2, '0')}</div>
+          <div className="text-4xl md:text-6xl font-bold !text-white">{minutes.toString().padStart(2, '0')}</div>
           <div className="text-xs md:text-sm font-semibold uppercase tracking-widest mt-1 !text-white">Minutes</div>
         </div>
         <div className="text-4xl md:text-5xl font-bold text-white">:</div>
         <div>
-          <div className="text-5xl md:text-6xl font-bold text-accent-yellow">{seconds.toString().padStart(2, '0')}</div>
+          <div className="text-4xl md:text-6xl font-bold text-accent-yellow">{seconds.toString().padStart(2, '0')}</div>
           <div className="text-xs md:text-sm font-semibold uppercase tracking-widest mt-1 !text-white">Seconds</div>
         </div>
       </div>

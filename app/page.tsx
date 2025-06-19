@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@radix-ui/react-accordion";
@@ -105,6 +106,13 @@ function BackToTopButton() {
 export default function WeddingLanding() {
   return (
     <div className="bg-[var(--color-background)] text-[var(--color-foreground)] w-full min-h-screen flex flex-col items-center">
+      {/* Background Music */}
+      <audio
+        src="/audio/도깨비OSTBEAUTIFUL VIOLIN COVER(GOBLIN OST).mp3"
+        autoPlay
+        loop
+        style={{ display: 'none' }}
+      />
       {/* Hero Section */}
       <section className="relative w-full min-h-[100vh] flex items-center justify-center overflow-hidden">
         <Image src={heroImage} alt="Romantic couple silhouette" fill className="object-cover object-bottom brightness-75" priority />

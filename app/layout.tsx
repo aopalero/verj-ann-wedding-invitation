@@ -43,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${greatVibes.variable} ${inter.variable} antialiased`}>
-      <body className="antialiased bg-[var(--color-background)] text-[var(--color-foreground)] font-sans">
+      <body className="antialiased bg-[var(--color-background)] text-[var(--color-foreground)] font-sans" cz-shortcut-listen="true">
         {children}
       </body>
     </html>

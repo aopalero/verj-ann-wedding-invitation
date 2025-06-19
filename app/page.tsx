@@ -410,9 +410,9 @@ export default function WeddingLanding() {
               </div>
               <div>
                 <div className="font-serif text-base mb-6">
-                Mam Babylene Herrera<br/>
-                Mam Catherine Faith Raon<br/>
-                Mam Rhona Navea<br/>
+                Ma&apos;am Babylene Herrera<br/>
+                Ma&apos;am Catherine Faith Raon<br/>
+                Ma&apos;am Rhona Navea<br/>
                 Jovelyn Girasol<br/>
                 Venjie Cabio<br/>
                 Josephine Guanzon<br/>

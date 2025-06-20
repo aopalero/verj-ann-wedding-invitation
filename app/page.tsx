@@ -326,9 +326,9 @@ export default function WeddingLanding() {
         <Image src="/images/JSH02261.jpg" alt="Scripture background" fill className="object-cover object-center brightness-90" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <h2 className="font-serif italic text-3xl md:text-4xl text-white drop-shadow-lg mb-2" style={{ fontFamily: 'var(--font-serif)' }}>
-            Ecclesiastes 3:1
+            Ecclesiastes 3:11
           </h2>
-          <p className="font-serif text-xl md:text-2xl text-white drop-shadow-lg">To every thing there is a season...</p>
+          <p className="font-serif text-xl md:text-2xl text-white drop-shadow-lg">"He hath made every thing beautiful in his time..."</p>
         </div>
       </section>
 

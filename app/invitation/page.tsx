@@ -16,7 +16,7 @@ const galleryImages = [
   "/images/JSH00721.jpg",
 ];
 const coupleImage = "/images/JSH02085.jpg";
-const qrCode = "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://example.com/rsvp";
+const qrCode = "/images/qrcode.png";
 
 function Countdown() {
   const [now, setNow] = React.useState(new Date());

@@ -18,10 +18,10 @@ const Page = () => {
   }
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', background: 'var(--color-background)' }}>
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center',  alignItems: 'center', background: 'var(--color-background)' }}>
       {/* Envelope wrapper */}
       <motion.div
-        style={{ position: 'relative', width: 420, height: 340, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start', cursor: isOpening ? 'default' : 'pointer' }}
+        style={{position: 'relative', width: 420, height: 340, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start', cursor: isOpening ? 'default' : 'pointer' }}
         onClick={handleOpen}
         initial={false}
         animate={isOpening ? 'open' : 'closed'}

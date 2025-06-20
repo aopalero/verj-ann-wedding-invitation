@@ -533,16 +533,14 @@ export default function WeddingLanding() {
               <li>Midi or maxi dresses in blue teal or yellow</li>
               <li>Blouses with modest skirts (no revealing cuts or high slits)</li>
               <li>Dressy but rustic-friendly style</li>
-              <li>Accessories in earthy, gold, or muted tones</li>
             </ul>
           </div>
           <div className="flex-1 text-center">
             <div className="font-serif font-semibold mb-2">For Him:</div>
             <ul className="list-disc list-inside text-sm text-base font-serif">
-              <li>Barong</li>
+              <li>Barong or Polo</li>
               <li>Slacks or tailored trousers (no jeans or shorts)</li>
               <li>Comfortable dress shoes or loafers</li>
-              <li>Ties optional (preferably in yellow or coordinating shades)</li>
             </ul>
           </div>
         </div>

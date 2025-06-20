@@ -529,7 +529,7 @@ export default function WeddingLanding() {
         <div className="w-full grid grid-cols-2 gap-12 text-dark-teal">
           <div className="flex-1 text-center">
             <div className="font-serif font-semibold mb-2">For Her:</div>
-            <ul className="list-disc list-inside text-sm text-base font-serif">
+            <ul className="list-disc list-inside text-sm md:text-base font-serif">
               <li>Midi or maxi dresses in blue teal or yellow</li>
               <li>Blouses with modest skirts (no revealing cuts or high slits)</li>
               <li>Dressy but rustic-friendly style</li>
@@ -537,7 +537,7 @@ export default function WeddingLanding() {
           </div>
           <div className="flex-1 text-center">
             <div className="font-serif font-semibold mb-2">For Him:</div>
-            <ul className="list-disc list-inside text-sm text-base font-serif">
+            <ul className="list-disc list-inside text-sm md:text-base font-serif">
               <li>Barong or Polo</li>
               <li>Slacks or tailored trousers (no jeans or shorts)</li>
               <li>Comfortable dress shoes or loafers</li>

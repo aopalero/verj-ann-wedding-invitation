@@ -344,11 +344,11 @@ export default function WeddingLanding() {
             <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mb-6">
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Parents of the Groom</div>
-                <div className="font-serif text-base text-sm md:text-lg">Ptr. Ireneo Tagulao<br/>Mrs. Zenaida Tagulao</div>
+                <div className="font-serif text-base text-xs md:text-lg">Ptr. Ireneo Tagulao<br/>Mrs. Zenaida Tagulao</div>
               </div>
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Parents of the Bride</div>
-                <div className="font-serif text-base text-sm md:text-lg">Mr. Rodrigo Palero<br/>Mrs. Felisicima Palero</div>
+                <div className="font-serif text-base text-xs md:text-lg">Mr. Rodrigo Palero<br/>Mrs. Felisicima Palero</div>
               </div>
             </div>
             {/* Officiating Pastor */}
@@ -357,7 +357,7 @@ export default function WeddingLanding() {
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider w-full text-center">Officiating Pastor</div>
               </div>
               <div>
-                <div className="font-serif text-center text-sm md:text-lg">
+                <div className="font-serif text-center text-xs md:text-lg">
                   Ptr. Ver Julius Tagulao
                 </div>
               </div>
@@ -368,7 +368,7 @@ export default function WeddingLanding() {
             </div>
             <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mt-6">
               <div>
-                <div className="font-serif text-center text-sm md:text-lg">
+                <div className="font-serif text-center text-xs md:text-lg">
                 Ptr. Conrado Herrera<br/>
                 Ptr. Richard John Raon<br/>
                 Ptr. Alan Navea<br/>
@@ -383,7 +383,7 @@ export default function WeddingLanding() {
                 </div>
               </div>
               <div>
-                <div className="font-serif text-center text-sm md:text-lg">
+                <div className="font-serif text-center text-xs md:text-lg">
                 Mrs. Babylene Herrera<br/>
                 Mrs. Catherine Faith Raon<br/>
                 Mrs. Rhona Navea<br/>
@@ -407,18 +407,18 @@ export default function WeddingLanding() {
             <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mt-6">
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Best Man</div>
-                <div className="font-serif text-center text-sm md:text-lg">Mr. Nathaniel Louis Sandoc</div>
+                <div className="font-serif text-center text-xs md:text-lg">Mr. Nathaniel Louis Sandoc</div>
               </div>
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Maid of Honor</div>
-                <div className="font-serif text-center text-sm md:text-lg">Ms. Gerlie Durana</div>
+                <div className="font-serif text-center text-xs md:text-lg">Ms. Gerlie Durana</div>
               </  div>
             </div>
             {/* Groomsmen / Bridesmaids */}
             <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mt-6 mb-6 ">
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Groomsmen</div>
-                <div className="font-serif text-center text-sm md:text-lg">
+                <div className="font-serif text-center text-xs md:text-lg">
                 Mr. Peter Milano<br/>
                 Mr. Eljay Sambrano<br/>
                 Mr. Peter Michael Tagulao<br/>
@@ -426,7 +426,7 @@ export default function WeddingLanding() {
               </div>
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bridesmaids</div>
-                <div className="font-serif text-center text-sm md:text-lg">
+                <div className="font-serif text-center text-xs md:text-lg">
                 Ms. Abigail Malapitan<br/>
                 Ms. Zoe Micah Nicole Cabio<br/>
                 Ms. Julliana Grace Tagulao<br/>
@@ -440,48 +440,48 @@ export default function WeddingLanding() {
             <div className="w-full grid grid-cols-2 gap-6 md:gap-8 text-center mt-6">
               <div>
                 <div className="font-serif text-base"><span className="font-semibold uppercase text-lg text-[#9B8353]">Candle</span><br/>
-                <span className=" text-sm md:text-lg"> Mr. Renjay Rosal<br/>Ms. Alexandria Nicole Caalim</span></div>
+                <span className=" text-xs md:text-lg"> Mr. Renjay Rosal<br/>Ms. Alexandria Nicole Caalim</span></div>
               </div>
               <div>
                 <div className="font-serif text-base"><span className="font-semibold uppercase text-lg text-[#9B8353]">Veil</span><br/>
-                <span className=" text-sm md:text-lg">Mr. Jhon Regie Tagulao<br/>Ms. Leah Angeline Banadera</span></div>
+                <span className=" text-xs md:text-lg">Mr. Jhon Regie Tagulao<br/>Ms. Leah Angeline Banadera</span></div>
               </div>
             </div>
             <div>
               <div className="font-serif text-center mt-6"><span className="font-semibold uppercase text-lg text-[#9B8353]">Cord</span><br/>
-              <span className=" text-sm md:text-lg">Ptr. Timothy John Fernandez<br/>Ms. Chermae Theresa Aguila</span>
+              <span className=" text-xs md:text-lg">Ptr. Timothy John Fernandez<br/>Ms. Chermae Theresa Aguila</span>
               </div>
             </div>
             {/* Bearers */}
             <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 text-center mt-6">
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Ring Bearer</div>
-                <div className="font-serif text-base text-sm md:text-lg">Asher Lemrod Tamon</div>
+                <div className="font-serif text-base text-xs md:text-lg">Asher Lemrod Tamon</div>
               </div>
               <div>
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Bible Bearer</div>
-                <div className="font-serif text-base text-sm md:text-lg">Azariah Lemuel Rod Tamon</div>
+                <div className="font-serif text-base text-xs md:text-lg">Azariah Lemuel Rod Tamon</div>
               </div>  
               <div className="hidden md:block">
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Coin Bearers</div>
-                <div className="font-serif text-base text-sm md:text-lg">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
+                <div className="font-serif text-base text-xs md:text-lg">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
               </div>
             </div>
             <div className="w-full text-center block md:hidden">
                 <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider">Coin Bearers</div>
-                <div className="font-serif text-base text-sm md:text-lg">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
+                <div className="font-serif text-base text-xs md:text-lg">Darell Chase Ramos<br/>Gabriel Rodriguez</div>
             </div>
             <div className="font-serif uppercase text-lg font-semibold mb-1 text-[#9B8353] tracking-wider text-center mt-6">Flower Girl</div>
             <div className="w-full grid grid-cols-2 md:grid-cols-3 text-center">
-                <div className="font-serif text-center text-sm md:text-lg">
+                <div className="font-serif text-center text-xs md:text-lg">
                   Amara Naomi Dizon<br/>
                   Rosie Brielle Mayo
                 </div>
-                <div className="font-serif text-center text-sm md:text-lg">
+                <div className="font-serif text-center text-xs md:text-lg">
                 Harmony Lois Fernandez<br/>
                   Zeraphine Loira Sosa
                 </div>
-                <div className="font-serif text-center text-sm md:text-lg">
+                <div className="font-serif text-center text-xs md:text-lg">
                   Maria Jean Athena Tiu
                 </div>
             </div>
@@ -519,8 +519,6 @@ export default function WeddingLanding() {
         <div className="mb-6 flex justify-center">
           <Image src="/images/Attire.png" alt="Guest Attire Illustration" width={220} height={180} />
         </div>
-        <h3 className="font-serif text-2xl text-dark-teal font-semibold tracking-widest mb-2 text-center">STRICTLY FORMAL</h3>
-        <p className="text-center mb-2 font-serif text-lg">Join us in formal modest attire featuring our wedding colors: teal and yellow tones.<br/>As a sign of respect, we kindly ask guests not to wear white.<br/>This color is reserved for the bride.</p>
         <div className="flex justify-center gap-4 my-6">
           <span className="w-14 h-14 rounded-md inline-block" style={{ background: '#0D4C5F' }}></span>
           <span className="w-14 h-14 rounded-md inline-block" style={{ background: '#4B7D8B' }}></span>
@@ -528,10 +526,10 @@ export default function WeddingLanding() {
           <span className="w-14 h-14 rounded-md inline-block" style={{ background: '#F2D46E' }}></span>
         </div>
         <h4 className="font-serif text-xl mt-8 mb-4 text-center">Attire Guidelines</h4>
-        <div className="w-full flex flex-col md:flex-row justify-center gap-12 text-dark-teal">
+        <div className="w-full grid grid-cols-2 gap-12 text-dark-teal">
           <div className="flex-1 text-center">
             <div className="font-serif font-semibold mb-2">For Her:</div>
-            <ul className="list-disc list-inside text-base font-serif">
+            <ul className="list-disc list-inside text-sm text-base font-serif">
               <li>Midi or maxi dresses in blue teal or yellow</li>
               <li>Blouses with modest skirts (no revealing cuts or high slits)</li>
               <li>Dressy but rustic-friendly style</li>
@@ -540,7 +538,7 @@ export default function WeddingLanding() {
           </div>
           <div className="flex-1 text-center">
             <div className="font-serif font-semibold mb-2">For Him:</div>
-            <ul className="list-disc list-inside text-base font-serif">
+            <ul className="list-disc list-inside text-sm text-base font-serif">
               <li>Barong</li>
               <li>Slacks or tailored trousers (no jeans or shorts)</li>
               <li>Comfortable dress shoes or loafers</li>

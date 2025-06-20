@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 
-const page = () => {
+const Page = () => {
   const [isOpening, setIsOpening] = useState(false)
   const router = useRouter()
 
@@ -103,4 +103,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
